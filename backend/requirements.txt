@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+openai
+# 裂缝分割推理依赖（也可直接使用 segmentation/requirements.txt）
+torch
+segmentation-models-pytorch
+albumentations
+timm
+opencv-python
+scikit-image
+scipy
+onnxruntime
