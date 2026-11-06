@@ -77,10 +77,10 @@ def save_preprocess_demo(split_dir, output_path, count=3):
 
 def main():
     datasets = {
-        'DeepCrack train': DATA_DIR / 'deepcrack' / 'train',
-        'DeepCrack val': DATA_DIR / 'deepcrack' / 'val',
-        'DeepCrack test': DATA_DIR / 'deepcrack' / 'test',
-        'CFD test (跨域)': DATA_DIR / 'cfd' / 'test',
+        'DeepCrack train': DATA_DIR / 'DeepCrack' / 'train',
+        'DeepCrack val': DATA_DIR / 'DeepCrack' / 'val',
+        'DeepCrack test': DATA_DIR / 'DeepCrack' / 'test',
+        'CFD test (跨域)': DATA_DIR / 'CFD' / 'test',
     }
     results = {name: analyze_split(path) for name, path in datasets.items()}
 
@@ -102,7 +102,7 @@ def main():
     with open(RUNS_DIR / 'image_analysis.md', 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines))
 
-    save_preprocess_demo(DATA_DIR / 'deepcrack' / 'test', RUNS_DIR / 'preprocess_demo.jpg')
+    save_preprocess_demo(DATA_DIR / 'DeepCrack' / 'test', RUNS_DIR / 'preprocess_demo.jpg')
     print(json.dumps(results, ensure_ascii=False, indent=2))
 
 

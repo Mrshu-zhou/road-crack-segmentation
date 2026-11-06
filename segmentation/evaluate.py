@@ -4,9 +4,9 @@
 
 用法：
   python evaluate.py --checkpoint runs/deeplabv3plus_mobilenetv2_full_bce_dice/best.pth \
-      --data data/processed/deepcrack/test --output runs/eval_deeplab_deepcrack
+      --data data/02_processed_data/DeepCrack/test --output runs/eval_deeplab_deepcrack
   python evaluate.py --checkpoint runs/segformer_b0_full_bce_dice/best.pth \
-      --data data/processed/cfd/test --output runs/eval_segformer_cfd
+      --data data/02_processed_data/CFD/test --output runs/eval_segformer_cfd
 """
 
 import argparse

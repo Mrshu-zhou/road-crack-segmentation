@@ -116,8 +116,8 @@ python train.py --model segformer_b0 --preprocess full --loss bce_dice --epochs 
 评估：
 
 ```powershell
-python evaluate.py --checkpoint weights/deeplabv3plus_mobilenetv2_best.pth --data data/processed/deepcrack/test --output runs/eval_deeplab_deepcrack
-python evaluate.py --checkpoint weights/segformer_b0_best.pth --data data/processed/deepcrack/test --output runs/eval_segformer_deepcrack
+python evaluate.py --checkpoint weights/deeplabv3plus_mobilenetv2_best.pth --data data/02_processed_data/DeepCrack/test --output runs/eval_deeplab_deepcrack
+python evaluate.py --checkpoint weights/segformer_b0_best.pth --data data/02_processed_data/DeepCrack/test --output runs/eval_segformer_deepcrack
 ```
 
 ## 实验结果（DeepCrack 测试集）

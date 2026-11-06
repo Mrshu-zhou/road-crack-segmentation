@@ -119,7 +119,7 @@ def parse_args():
     parser.add_argument('--num-workers', type=int, default=4)
     parser.add_argument('--val-every', type=int, default=1)
     parser.add_argument('--patience', type=int, default=12)
-    parser.add_argument('--data-root', default=str(DATA_DIR / 'deepcrack'))
+    parser.add_argument('--data-root', default=str(DATA_DIR / 'DeepCrack'))
     parser.add_argument('--run-name', default='')
     parser.add_argument('--weights-name', default='', help='额外保存到 weights/ 下的文件名')
     parser.add_argument('--resume', default='', help='从指定 checkpoint 继续训练')

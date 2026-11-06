@@ -3,9 +3,9 @@
 将 DeepCrack 与 CrackForest(CFD) 原始数据整理为统一目录结构。
 
 输出结构：
-  data/processed/deepcrack/{train,val,test}/{images,masks}
-  data/processed/cfd/test/{images,masks}
-  data/processed/splits.json
+  data/02_processed_data/DeepCrack/{train,val,test}/{images,masks}
+  data/02_processed_data/CFD/test/{images,masks}
+  data/02_processed_data/splits.json
 
 DeepCrack 官方划分：train 300 张、test 237 张；从 train 中再切 30 张做验证集。
 CFD 全部 118 张作为跨数据集测试集，用于观察域偏移下的泛化能力。
@@ -22,9 +22,9 @@ import scipy.io as sio
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'data'
-RAW_DEEPCRACK = DATA / 'raw_deepcrack' / 'dataset' / 'extracted'
-RAW_CFD = DATA / 'raw_cfd'
-PROCESSED = DATA / 'processed'
+RAW_DEEPCRACK = DATA / '01_raw_DeepCrack' / 'dataset' / 'extracted'
+RAW_CFD = DATA / '01_raw_CFD'
+PROCESSED = DATA / '02_processed_data'
 
 RANDOM_SEED = 42
 VAL_RATIO = 0.1
@@ -50,13 +50,13 @@ def _copy_pair(image_path: Path, mask_path: Path, out_split: Path, stem: str):
 def prepare_deepcrack():
     """整理 DeepCrack，并按 270/30/237 划分训练、验证、测试"""
     splits = {
-        'train': RAW_DEEPCRACK / 'train_img',
-        'test': RAW_DEEPCRACK / 'test_img',
+        'train': RAW_DEEPCRACK / 'train_images',
+        'test': RAW_DEEPCRACK / 'test_images',
     }
-    out_root = PROCESSED / 'deepcrack'
+    out_root = PROCESSED / 'DeepCrack'
 
     train_pairs = sorted(
-        (p, RAW_DEEPCRACK / 'train_lab' / f'{p.stem}.png')
+        (p, RAW_DEEPCRACK / 'train_masks' / f'{p.stem}.png')
         for p in splits['train'].glob('*.jpg')
     )
     if not train_pairs:
@@ -78,7 +78,7 @@ def prepare_deepcrack():
     _ensure_dir(out_split / 'images')
     _ensure_dir(out_split / 'masks')
     test_pairs = sorted(
-        (p, RAW_DEEPCRACK / 'test_lab' / f'{p.stem}.png')
+        (p, RAW_DEEPCRACK / 'test_masks' / f'{p.stem}.png')
         for p in splits['test'].glob('*.jpg')
     )
     for image_path, mask_path in test_pairs:
@@ -102,13 +102,13 @@ def _load_cfd_mask(mat_path: Path) -> np.ndarray:
 
 def prepare_cfd():
     """整理 CFD 跨域测试集"""
-    out_split = PROCESSED / 'cfd' / 'test'
+    out_split = PROCESSED / 'CFD' / 'test'
     _ensure_dir(out_split / 'images')
     _ensure_dir(out_split / 'masks')
 
     processed = 0
-    for image_path in sorted(RAW_CFD.glob('image/*.jpg')):
-        mat_path = RAW_CFD / 'groundTruth' / f'{image_path.stem}.mat'
+    for image_path in sorted((RAW_CFD / 'images').glob('*.jpg')):
+        mat_path = RAW_CFD / 'ground_truth_mat' / f'{image_path.stem}.mat'
         if not mat_path.exists():
             continue
         shutil.copyfile(image_path, out_split / 'images' / image_path.name)

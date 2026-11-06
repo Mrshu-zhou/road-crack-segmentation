@@ -45,8 +45,8 @@ def evaluate_dataset(split_dir, preprocess_mode):
 
 def main():
     datasets = {
-        'deepcrack_test': DATA_DIR / 'deepcrack' / 'test',
-        'cfd_test': DATA_DIR / 'cfd' / 'test',
+        'deepcrack_test': DATA_DIR / 'DeepCrack' / 'test',
+        'cfd_test': DATA_DIR / 'CFD' / 'test',
     }
     results = {}
     for dataset_name, split_dir in datasets.items():
