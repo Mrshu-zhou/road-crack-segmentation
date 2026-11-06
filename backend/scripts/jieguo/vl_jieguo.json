@@ -1,0 +1,594 @@
+{
+  "jieguo_liebiao": [
+    {
+      "wenjianming": "15c20d11-8195-4952-87d8-7959bf435a43.png",
+      "haoshi_miao": 26.83,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面中央",
+          "chicun_gu_ji": "长约80厘米，宽约40厘米，深约10厘米",
+          "jiankuang": [
+            0.09,
+            0.26,
+            0.86,
+            0.56
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "1d124165-0458-4323-a215-ab21b6d2d8b5.png",
+      "haoshi_miao": 94.63,
+      "queshi_leixing": "裂缝",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "裂缝"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "龟裂",
+          "weizhi": "画面左上角",
+          "chicun_gu_ji": "面积约0.5平方米",
+          "jiankuang": [
+            0.0,
+            0.0,
+            0.35,
+            0.35
+          ]
+        },
+        {
+          "leixing": "裂缝",
+          "weizhi": "画面中央纵向",
+          "chicun_gu_ji": "长度贯穿画面，宽度约15厘米",
+          "jiankuang": [
+            0.35,
+            0.05,
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "leixing": "裂缝",
+          "weizhi": "画面中部横向",
+          "chicun_gu_ji": "长度约2米，宽度约5毫米",
+          "jiankuang": [
+            0.3,
+            0.35,
+            0.95,
+            0.45
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面底部中央",
+          "chicun_gu_ji": "直径约30厘米",
+          "jiankuang": [
+            0.55,
+            0.75,
+            0.72,
+            0.98
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "2d27998a-a260-45a0-95af-8938f20d3e7c.png",
+      "haoshi_miao": 36.47,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧",
+          "chicun_gu_ji": "直径约1.5米，深度较深",
+          "jiankuang": [
+            0.48,
+            0.46,
+            0.83,
+            0.65
+          ]
+        },
+        {
+          "leixing": "松散",
+          "weizhi": "画面左侧",
+          "chicun_gu_ji": "面积约3平方米",
+          "jiankuang": [
+            0.0,
+            0.2,
+            0.35,
+            0.55
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "39889e7d-25d7-49c5-a64f-2b496ca6e6b6.png",
+      "haoshi_miao": 60.16,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右下角",
+          "chicun_gu_ji": "直径约45厘米",
+          "jiankuang": [
+            0.62,
+            0.65,
+            0.88,
+            0.82
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面中下部偏右",
+          "chicun_gu_ji": "直径约35厘米",
+          "jiankuang": [
+            0.55,
+            0.67,
+            0.72,
+            0.85
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面中下部偏左",
+          "chicun_gu_ji": "直径约30厘米",
+          "jiankuang": [
+            0.3,
+            0.62,
+            0.45,
+            0.78
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左下角",
+          "chicun_gu_ji": "直径约25厘米",
+          "jiankuang": [
+            0.12,
+            0.65,
+            0.25,
+            0.82
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面中上部",
+          "chicun_gu_ji": "直径约25厘米",
+          "jiankuang": [
+            0.45,
+            0.35,
+            0.58,
+            0.45
+          ]
+        },
+        {
+          "leixing": "龟裂",
+          "weizhi": "画面左侧及左上部",
+          "chicun_gu_ji": "面积约3平方米",
+          "jiankuang": [
+            0.0,
+            0.0,
+            0.4,
+            0.6
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "40c5e715-4442-497b-bf8e-99f32921849f.png",
+      "haoshi_miao": 109.13,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "路面中央",
+          "chicun_gu_ji": "长约4米，宽约2.5米",
+          "jiankuang": [
+            0.25,
+            0.45,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "路面左侧边缘",
+          "chicun_gu_ji": "直径约50厘米",
+          "jiankuang": [
+            0.12,
+            0.65,
+            0.35,
+            0.85
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "5406df76-a5c7-458c-979e-27a6d5507ff7.png",
+      "haoshi_miao": 46.67,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左下方",
+          "chicun_gu_ji": "直径约60厘米",
+          "jiankuang": [
+            0.15,
+            0.62,
+            0.45,
+            0.85
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧中部",
+          "chicun_gu_ji": "直径约50厘米",
+          "jiankuang": [
+            0.6,
+            0.5,
+            0.85,
+            0.65
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧远端",
+          "chicun_gu_ji": "直径约30厘米",
+          "jiankuang": [
+            0.7,
+            0.35,
+            0.85,
+            0.45
+          ]
+        },
+        {
+          "leixing": "松散",
+          "weizhi": "画面右下方",
+          "chicun_gu_ji": "面积约1.5平方米",
+          "jiankuang": [
+            0.45,
+            0.7,
+            0.95,
+            0.95
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "637e799c-5e8f-40a8-8565-82cd4aac250b.png",
+      "haoshi_miao": 48.8,
+      "queshi_leixing": "龟裂",
+      "yansong_chengdu": "中等",
+      "shibie_zhonglei": [
+        "龟裂"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "龟裂",
+          "weizhi": "路面中央及右侧",
+          "chicun_gu_ji": "面积约15平方米",
+          "jiankuang": [
+            0.2,
+            0.1,
+            0.95,
+            0.95
+          ]
+        },
+        {
+          "leixing": "裂缝",
+          "weizhi": "路面左侧",
+          "chicun_gu_ji": "长度约5米",
+          "jiankuang": [
+            0.1,
+            0.05,
+            0.4,
+            0.85
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "78b262ae-a562-4985-a378-8f2d04c0976e.png",
+      "haoshi_miao": 31.5,
+      "queshi_leixing": "裂缝",
+      "yansong_chengdu": "中等",
+      "shibie_zhonglei": [
+        "裂缝"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "裂缝",
+          "weizhi": "画面左下方井盖周围",
+          "chicun_gu_ji": "裂缝呈环形围绕井盖，井盖直径约70厘米，缝宽约3-5毫米",
+          "jiankuang": [
+            0.09,
+            0.56,
+            0.41,
+            0.93
+          ]
+        },
+        {
+          "leixing": "松散",
+          "weizhi": "画面右侧路边缘",
+          "chicun_gu_ji": "路面边缘破损长度约2米，宽度约15-20厘米",
+          "jiankuang": [
+            0.52,
+            0.48,
+            0.98,
+            0.95
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "c17e5d95-c9ac-4eef-8e51-85564fe95360.png",
+      "haoshi_miao": 42.59,
+      "queshi_leixing": "裂缝",
+      "yansong_chengdu": "轻微",
+      "shibie_zhonglei": [
+        "裂缝"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "裂缝",
+          "weizhi": "画面左下方",
+          "chicun_gu_ji": "长度约1米，宽度约2毫米",
+          "jiankuang": [
+            0.15,
+            0.65,
+            0.45,
+            0.72
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "d6aeb324-eaf1-4e68-ae9a-ac7509d53eb9.png",
+      "haoshi_miao": 38.67,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左上角",
+          "chicun_gu_ji": "直径约50厘米",
+          "jiankuang": [
+            0.05,
+            0.07,
+            0.38,
+            0.35
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右上侧",
+          "chicun_gu_ji": "直径约30厘米",
+          "jiankuang": [
+            0.55,
+            0.15,
+            0.75,
+            0.25
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧中部",
+          "chicun_gu_ji": "长约40厘米",
+          "jiankuang": [
+            0.8,
+            0.28,
+            0.98,
+            0.38
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右下侧",
+          "chicun_gu_ji": "直径约20厘米",
+          "jiankuang": [
+            0.65,
+            0.55,
+            0.78,
+            0.68
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面底部中央",
+          "chicun_gu_ji": "直径约20厘米",
+          "jiankuang": [
+            0.25,
+            0.78,
+            0.45,
+            0.88
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左侧边缘",
+          "chicun_gu_ji": "直径约15厘米",
+          "jiankuang": [
+            0.0,
+            0.45,
+            0.1,
+            0.6
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "e3e6e8e6-49a1-48b8-a617-2e31866853ec.png",
+      "haoshi_miao": 20.89,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "严重",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左侧",
+          "chicun_gu_ji": "长约80厘米，宽约40厘米",
+          "jiankuang": [
+            0.08,
+            0.33,
+            0.49,
+            0.75
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧中部",
+          "chicun_gu_ji": "直径约25厘米",
+          "jiankuang": [
+            0.79,
+            0.42,
+            0.96,
+            0.57
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧下方",
+          "chicun_gu_ji": "直径约20厘米",
+          "jiankuang": [
+            0.62,
+            0.5,
+            0.77,
+            0.65
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧中部偏上",
+          "chicun_gu_ji": "直径约20厘米",
+          "jiankuang": [
+            0.56,
+            0.26,
+            0.7,
+            0.37
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右上角",
+          "chicun_gu_ji": "长约30厘米",
+          "jiankuang": [
+            0.84,
+            0.26,
+            1.0,
+            0.39
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "e659fa36-ddb5-4f25-b342-2e89556b4997.png",
+      "haoshi_miao": 168.82,
+      "queshi_leixing": "坑洞",
+      "yansong_chengdu": "中等",
+      "shibie_zhonglei": [
+        "坑洞"
+      ],
+      "quexian_qingdan": [
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左下侧",
+          "chicun_gu_ji": "面积约0.1平方米",
+          "jiankuang": [
+            0.22,
+            0.5,
+            0.48,
+            0.64
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面右侧中部",
+          "chicun_gu_ji": "长约20厘米",
+          "jiankuang": [
+            0.65,
+            0.42,
+            0.8,
+            0.5
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左侧中部",
+          "chicun_gu_ji": "直径约15厘米",
+          "jiankuang": [
+            0.0,
+            0.35,
+            0.18,
+            0.46
+          ]
+        },
+        {
+          "leixing": "坑洞",
+          "weizhi": "画面左下角",
+          "chicun_gu_ji": "直径约10厘米",
+          "jiankuang": [
+            0.0,
+            0.73,
+            0.1,
+            0.83
+          ]
+        }
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "faa77e96-8e19-4336-bac7-a3a071ce9e1c.png",
+      "haoshi_miao": 36.76,
+      "queshi_leixing": "无",
+      "yansong_chengdu": "无",
+      "shibie_zhonglei": [],
+      "quexian_qingdan": [],
+      "cuowu": ""
+    }
+  ],
+  "tongji": {
+    "zongshu": 13,
+    "pingjun_haoshi_miao": 58.61,
+    "tonglei_youtube": 0,
+    "youbiaozhu_shu": 0,
+    "pipei_shu": 0,
+    "zhengquelv": null
+  }
+}

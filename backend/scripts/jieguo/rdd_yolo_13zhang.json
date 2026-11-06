@@ -1,0 +1,89 @@
+{
+  "jieguo_liebiao": [
+    {
+      "wenjianming": "15c20d11-8195-4952-87d8-7959bf435a43.png",
+      "haoshi_miao": 3.24,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "1d124165-0458-4323-a215-ab21b6d2d8b5.png",
+      "haoshi_miao": 0.04,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "2d27998a-a260-45a0-95af-8938f20d3e7c.png",
+      "haoshi_miao": 0.04,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "39889e7d-25d7-49c5-a64f-2b496ca6e6b6.png",
+      "haoshi_miao": 0.08,
+      "jianchu_lei": [
+        "D40"
+      ],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "40c5e715-4442-497b-bf8e-99f32921849f.png",
+      "haoshi_miao": 0.04,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "5406df76-a5c7-458c-979e-27a6d5507ff7.png",
+      "haoshi_miao": 0.04,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "637e799c-5e8f-40a8-8565-82cd4aac250b.png",
+      "haoshi_miao": 0.04,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "78b262ae-a562-4985-a378-8f2d04c0976e.png",
+      "haoshi_miao": 0.01,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "c17e5d95-c9ac-4eef-8e51-85564fe95360.png",
+      "haoshi_miao": 0.04,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "d6aeb324-eaf1-4e68-ae9a-ac7509d53eb9.png",
+      "haoshi_miao": 0.02,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "e3e6e8e6-49a1-48b8-a617-2e31866853ec.png",
+      "haoshi_miao": 0.01,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "e659fa36-ddb5-4f25-b342-2e89556b4997.png",
+      "haoshi_miao": 0.02,
+      "jianchu_lei": [],
+      "cuowu": ""
+    },
+    {
+      "wenjianming": "faa77e96-8e19-4336-bac7-a3a071ce9e1c.png",
+      "haoshi_miao": 0.01,
+      "jianchu_lei": [],
+      "cuowu": ""
+    }
+  ],
+  "tongji": {
+    "zongshu": 13,
+    "pingjun_haoshi_miao": 0.28,
+    "bei_zhu_ming": "COCO 预训练权重，不含道路缺陷类别"
+  }
+}
