@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+*.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 数据库与上传文件
+backend/daolu.db
+backend/uploads/
+
+# 数据集与训练中间产物（体积大，不进入仓库）
+segmentation/data/
+segmentation/exports/
+segmentation/runs/
+
+# 训练权重保留在 packaging 目录中，见 segmentation/weights/
+# 如需使用 Git LFS，可改为 *.pth filter=lfs diff=lfs merge=lfs -text
+backend/scripts/weights/*.pt
+
+# 竞赛/课程临时材料（不进入代码仓库）
+/*.jpg
+/*.pptx
+/*.docx
+/sucai/
+/决赛冲刺待做清单.md
+/说明书*.md
