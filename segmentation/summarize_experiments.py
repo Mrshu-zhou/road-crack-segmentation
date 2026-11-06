@@ -112,7 +112,7 @@ def main():
             'boundary_iou': raw.get('boundary_iou'), 'note': '原始概率阈值化',
         })
         ablation.append({
-            'group': '后处理', 'name': '+ 形态学后处理',
+            'group': '后处理', 'name': '形态学后处理',
             'iou': post.get('iou'), 'dice': post.get('dice'),
             'boundary_iou': post.get('boundary_iou'), 'note': '去小连通域 + 闭运算',
         })

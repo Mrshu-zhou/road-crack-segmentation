@@ -71,7 +71,13 @@ def plot_ablation():
     with open(summary_path, 'r', encoding='utf-8') as f:
         summary = json.load(f)
 
-    rows = [row for row in summary.get('ablation', []) if row.get('dice') is not None]
+    # 主模型与“阈值 0.5”和“形态学后处理”的数值重复，绘图时只保留后者，避免柱子重复
+    rows = [
+        row for row in summary.get('ablation', [])
+        if row.get('dice') is not None
+        and row.get('group') != '主模型'
+        and row.get('name') != '阈值 0.5'
+    ]
     if not rows:
         print('没有可绘制的消融数据')
         return
