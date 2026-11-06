@@ -58,6 +58,7 @@ daolu_system/
     ├── summarize_experiments.py 实验汇总
     ├── plot_results.py          训练曲线与消融图
     ├── weights/                 两套训练权重
+    ├── docs/assets/             报告内嵌的实验图表
     └── 实验报告.md              课程作业实验报告
 ```
 
@@ -132,6 +133,20 @@ python evaluate.py --checkpoint weights/segformer_b0_best.pth --data data/proces
 | --- | --- | --- |
 | DeepLabV3+ | 0.3786 | 0.5320 |
 | SegFormer-B0 | 0.4249 | 0.5856 |
+
+消融实验（DeepCrack 测试集）：
+
+| 配置 | 测试 Dice | 测试 IoU |
+| --- | --- | --- |
+| 主模型（full + BCE+Dice + 增强） | 0.7990 | 0.6785 |
+| 预处理 none | **0.8100** | **0.6983** |
+| 预处理 clahe | 0.8018 | 0.6822 |
+| 损失 仅 BCE | 0.7894 | 0.6656 |
+| 损失 仅 Dice | 0.8048 | 0.6841 |
+| 关闭数据增强 | 0.8062 | 0.6868 |
+| 关闭后处理 | 0.7987 | 0.6779 |
+
+结果显示：在本数据集上，预处理 `none` 与关闭增强的同域指标略高；纯 BCE 损失明显最差；后处理主要改善噪点与断线，而非像素指标。完整分析见实验报告 3.3 与 5.4。
 
 更完整的实验数据、消融分析与答辩要点见 [segmentation/实验报告.md](segmentation/实验报告.md)。
 
